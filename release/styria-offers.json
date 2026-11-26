@@ -1,0 +1,1006 @@
+{
+  "region": "AT-6",
+  "checkedAt": "2026-11-26T19:16:28.811867+00:00",
+  "complete": false,
+  "offers": [
+    {
+      "retailer": "billa",
+      "name": "Milka Nikolo Alpenmilch",
+      "pack": "90 g",
+      "cents": 269,
+      "from": "2026-11-27",
+      "until": "2026-11-28",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/1",
+      "excludedDays": [],
+      "image": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-23659-0416102198-qxfqDtOh.jpg",
+      "sku": "00-23659"
+    },
+    {
+      "retailer": "billa",
+      "name": "Danone Dany Sahne Schoko",
+      "pack": "190 g",
+      "cents": 198,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/11",
+      "excludedDays": [
+        "2026-11-29"
+      ],
+      "image": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-387480-960465579-An9x6LVr.jpg",
+      "sku": "00-387480",
+      "quantity": 3,
+      "singlePackCents": 99,
+      "condition": "2+1 gratis · Aktion auch für Vanille",
+      "unit": "3,47 €/kg"
+    },
+    {
+      "retailer": "billa",
+      "name": "Frucade",
+      "cents": 876,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/11",
+      "automatic": true,
+      "pack": "1,5 Liter",
+      "quantity": 6,
+      "condition": "Ab 6 Stück",
+      "unit": "0,97 €/l",
+      "excludedDays": [
+        "2026-11-29"
+      ]
+    },
+    {
+      "retailer": "billa",
+      "name": "Gösser Bio Stoff",
+      "cents": 1072,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/15",
+      "automatic": true,
+      "pack": "0,33 Liter",
+      "quantity": 12,
+      "condition": "Ab 12 Stück",
+      "unit": "2,70 €/l",
+      "excludedDays": [
+        "2026-11-29"
+      ]
+    },
+    {
+      "retailer": "billa",
+      "name": "Gösser Märzen",
+      "cents": 894,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/15",
+      "automatic": true,
+      "quantity": 12,
+      "condition": "Ab 12 Stück",
+      "excludedDays": [
+        "2026-11-29"
+      ]
+    },
+    {
+      "retailer": "billa",
+      "name": "Gösser Märzen od. Naturgold",
+      "cents": 894,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/15",
+      "automatic": true,
+      "pack": "0,5 Liter",
+      "quantity": 12,
+      "condition": "Ab 12 Stück",
+      "unit": "1,48 €/l",
+      "excludedDays": [
+        "2026-11-29"
+      ]
+    },
+    {
+      "retailer": "billa",
+      "name": "Happy Day",
+      "cents": 558,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/11",
+      "automatic": true,
+      "pack": "1 Liter",
+      "quantity": 3,
+      "condition": "Ab 3 Stück",
+      "unit": "1,86 €/l",
+      "excludedDays": [
+        "2026-11-29"
+      ]
+    },
+    {
+      "retailer": "billa",
+      "name": "Head & Shoulders Shampoo",
+      "cents": 598,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/17",
+      "automatic": true,
+      "pack": "225–250 ml",
+      "quantity": 2,
+      "condition": "Ab 2 Stück",
+      "excludedDays": [
+        "2026-11-29"
+      ]
+    },
+    {
+      "retailer": "billa",
+      "name": "Hell Energydrink",
+      "cents": 198,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/11",
+      "automatic": true,
+      "pack": "250 ml",
+      "quantity": 4,
+      "condition": "Ab 4 Stück",
+      "unit": "1,96 €/l",
+      "excludedDays": [
+        "2026-11-29"
+      ]
+    },
+    {
+      "retailer": "billa",
+      "name": "Jacobs Auslese Pads div. Sorten",
+      "cents": 599,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/14",
+      "automatic": true,
+      "pack": "250 g",
+      "unit": "23,96 €/kg",
+      "excludedDays": [
+        "2026-11-29"
+      ]
+    },
+    {
+      "retailer": "billa",
+      "name": "Lorenz Crunchips",
+      "cents": 384,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/12",
+      "automatic": true,
+      "pack": "130–150 g",
+      "quantity": 2,
+      "condition": "Ab 2 Stück",
+      "excludedDays": [
+        "2026-11-29"
+      ]
+    },
+    {
+      "retailer": "billa",
+      "name": "Milka Nikolo Alpenmilch",
+      "pack": "90 g",
+      "cents": 359,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/1",
+      "excludedDays": [
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29"
+      ],
+      "image": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-23659-0416102198-qxfqDtOh.jpg",
+      "sku": "00-23659"
+    },
+    {
+      "retailer": "billa",
+      "name": "Orangen",
+      "pack": "2 kg",
+      "cents": 229,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/1",
+      "excludedDays": [
+        "2026-11-29"
+      ],
+      "unit": "1,15 €/kg"
+    },
+    {
+      "retailer": "billa",
+      "name": "Pringles",
+      "cents": 478,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/12",
+      "automatic": true,
+      "pack": "160–185 g",
+      "quantity": 2,
+      "condition": "Ab 2 Stück",
+      "excludedDays": [
+        "2026-11-29"
+      ]
+    },
+    {
+      "retailer": "billa",
+      "name": "Puntigamer Märzen",
+      "pack": "20 × 0,5 l",
+      "cents": 1380,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/1",
+      "excludedDays": [
+        "2026-11-29"
+      ],
+      "condition": "Kiste mit 20 Mehrwegflaschen · zzgl. Pfand",
+      "unit": "1,38 €/l"
+    },
+    {
+      "retailer": "billa",
+      "name": "Puntigamer Märzen",
+      "cents": 1656,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/15",
+      "automatic": true,
+      "pack": "0,5 Liter",
+      "quantity": 24,
+      "condition": "Ab 24 Stück",
+      "unit": "1,38 €/l",
+      "excludedDays": [
+        "2026-11-29"
+      ]
+    },
+    {
+      "retailer": "billa",
+      "name": "Schärdinger Greek Style Joghurt",
+      "pack": "175 g",
+      "cents": 246,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/11",
+      "excludedDays": [
+        "2026-11-29"
+      ],
+      "quantity": 3,
+      "singlePackCents": 123,
+      "condition": "2+1 gratis · verschiedene Sorten",
+      "unit": "4,69 €/kg"
+    },
+    {
+      "retailer": "billa",
+      "name": "Schärdinger Teebutter",
+      "pack": "250 g",
+      "cents": 568,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/10",
+      "excludedDays": [
+        "2026-11-29"
+      ],
+      "image": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-618202-1896178774-psWeEd0C.jpg",
+      "sku": "00-618202",
+      "quantity": 4,
+      "singlePackCents": 256,
+      "condition": "Ab 4 Packungen",
+      "unit": "5,68 €/kg"
+    },
+    {
+      "retailer": "billa",
+      "name": "Schärdinger Österkron",
+      "pack": "150 g",
+      "cents": 398,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/10",
+      "excludedDays": [
+        "2026-11-29"
+      ],
+      "image": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-936709-559247823-H8QaIf0H.jpg",
+      "sku": "00-936709",
+      "quantity": 2,
+      "singlePackCents": 319,
+      "condition": "Ab 2 Stück",
+      "unit": "13,27 €/kg"
+    },
+    {
+      "retailer": "billa",
+      "name": "Stephansdom Brot",
+      "cents": 299,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/12",
+      "automatic": true,
+      "pack": "500 g",
+      "unit": "5,98 €/kg",
+      "excludedDays": [
+        "2026-11-29"
+      ]
+    },
+    {
+      "retailer": "billa",
+      "name": "Swirl Abfallsäcke",
+      "cents": 299,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://view.publitas.com/billa-at/billa_fb_kw48_2026_steiermark/page/17",
+      "automatic": true,
+      "unit": "0,00 €/l",
+      "excludedDays": [
+        "2026-11-29"
+      ]
+    },
+    {
+      "retailer": "interspar",
+      "name": "Delicata Hühneraufstrich",
+      "pack": "95 g",
+      "cents": 74,
+      "from": "2026-11-27",
+      "until": "2026-11-28",
+      "source": "https://flugblatt.interspar.at/steiermark/steiermark_kw48/#3",
+      "image": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001224838/HB_500px.jpg",
+      "unit": "7,79 €/kg"
+    },
+    {
+      "retailer": "interspar",
+      "name": "Kaki",
+      "pack": "2 Stück",
+      "cents": 149,
+      "from": "2026-11-23",
+      "until": "2026-11-28",
+      "source": "https://flugblatt.interspar.at/steiermark/steiermark_kw48/#6",
+      "unit": "0,75 €/Stück"
+    },
+    {
+      "retailer": "interspar",
+      "name": "Radicchio Mix",
+      "pack": "150 g",
+      "cents": 120,
+      "from": "2026-11-23",
+      "until": "2026-11-28",
+      "source": "https://flugblatt.interspar.at/steiermark/steiermark_kw48/#6",
+      "unit": "8,00 €/kg"
+    },
+    {
+      "retailer": "interspar",
+      "name": "SPAR Bio-Lachsfilet",
+      "pack": "200 g",
+      "cents": 1398,
+      "from": "2026-11-27",
+      "until": "2026-11-28",
+      "source": "https://flugblatt.interspar.at/steiermark/steiermark_kw48/#5",
+      "quantity": 2,
+      "singlePackCents": 799,
+      "condition": "Ab 2 Packungen",
+      "unit": "34,95 €/kg"
+    },
+    {
+      "retailer": "interspar",
+      "name": "SPAR PREMIUM Bio-Medjoul Datteln",
+      "pack": "200 g",
+      "cents": 349,
+      "from": "2026-11-23",
+      "until": "2026-11-28",
+      "source": "https://flugblatt.interspar.at/steiermark/steiermark_kw48/#6",
+      "image": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/6660581/HB_500px.jpg",
+      "unit": "17,45 €/kg"
+    },
+    {
+      "retailer": "interspar",
+      "name": "Coca-Cola Limonaden",
+      "pack": "2 l",
+      "cents": 576,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.interspar.at/steiermark/steiermark_kw48/#4",
+      "quantity": 4,
+      "singlePackCents": 289,
+      "condition": "2+2 gratis · zzgl. Pfand",
+      "unit": "0,72 €/l"
+    },
+    {
+      "retailer": "interspar",
+      "name": "Delicata Hühneraufstrich",
+      "pack": "95 g",
+      "cents": 99,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.interspar.at/steiermark/steiermark_kw48/#3",
+      "image": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001224838/HB_500px.jpg",
+      "excludedDays": [
+        "2026-11-27",
+        "2026-11-28"
+      ],
+      "unit": "10,42 €/kg"
+    },
+    {
+      "retailer": "interspar",
+      "name": "Heineken Lager",
+      "pack": "0,5 l",
+      "cents": 92,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.interspar.at/steiermark/steiermark_kw48/#3",
+      "condition": "Dose · zzgl. Pfand",
+      "unit": "1,84 €/l"
+    },
+    {
+      "retailer": "interspar",
+      "name": "Kelly's Chips",
+      "cents": 299,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.interspar.at/steiermark/steiermark_kw48/#4",
+      "automatic": true,
+      "quantity": 2,
+      "condition": "Ab 2 Stück"
+    },
+    {
+      "retailer": "interspar",
+      "name": "Lachsfilet",
+      "pack": "je 100 g",
+      "cents": 199,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.interspar.at/steiermark/steiermark_kw48/#1",
+      "unit": "19,90 €/kg"
+    },
+    {
+      "retailer": "interspar",
+      "name": "Landhaus Mayer Grüner Veltliner",
+      "cents": 449,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.interspar.at/steiermark/steiermark_kw47/#16",
+      "automatic": true
+    },
+    {
+      "retailer": "interspar",
+      "name": "Limonade",
+      "cents": 285,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.interspar.at/steiermark/steiermark_kw47/#4",
+      "automatic": true,
+      "quantity": 6,
+      "condition": "Ab 6 Stück"
+    },
+    {
+      "retailer": "interspar",
+      "name": "S-BUDGET Energy Drink Classic",
+      "pack": "250 ml",
+      "cents": 696,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.interspar.at/steiermark/steiermark_kw48/#4",
+      "image": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005353688/HB_500px.jpg",
+      "quantity": 24,
+      "singlePackCents": 59,
+      "condition": "Ab 24 Dosen · zzgl. Pfand",
+      "unit": "1,16 €/l"
+    },
+    {
+      "retailer": "interspar",
+      "name": "SalzburgMilch Premium Toastkäse in Scheiben",
+      "pack": "800 g",
+      "cents": 599,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.interspar.at/steiermark/steiermark_kw48/#5",
+      "unit": "7,49 €/kg"
+    },
+    {
+      "retailer": "spar",
+      "name": "Bio-Hokkaido Kürbis",
+      "pack": "je kg",
+      "cents": 142,
+      "from": "2026-11-26",
+      "until": "2026-11-28",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#1",
+      "image": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/6223793/HB_500px.jpg",
+      "sku": "6223793",
+      "unit": "1,42 €/kg"
+    },
+    {
+      "retailer": "spar",
+      "name": "S-BUDGET Kaki",
+      "cents": 199,
+      "from": "2026-11-26",
+      "until": "2026-11-28",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#16",
+      "automatic": true,
+      "pack": "1 kg",
+      "unit": "1,99 €/kg"
+    },
+    {
+      "retailer": "spar",
+      "name": "Soletti Salzstangerl",
+      "pack": "230 g",
+      "cents": 199,
+      "from": "2026-11-27",
+      "until": "2026-11-28",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#5",
+      "image": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/6988265/HB_500px.jpg",
+      "sku": "6988265",
+      "unit": "8,65 €/kg"
+    },
+    {
+      "retailer": "spar",
+      "name": "Almdudler Original",
+      "cents": 556,
+      "from": "2026-11-19",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#4",
+      "automatic": true,
+      "pack": "2 Liter",
+      "quantity": 4,
+      "condition": "Ab 4 Stück",
+      "unit": "0,69 €/l"
+    },
+    {
+      "retailer": "spar",
+      "name": "Astoria Galie Prosecco",
+      "cents": 1398,
+      "from": "2026-11-19",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#4",
+      "automatic": true,
+      "pack": "0,75 Liter",
+      "quantity": 2,
+      "condition": "Ab 2 Stück",
+      "unit": "9,32 €/l"
+    },
+    {
+      "retailer": "spar",
+      "name": "Blend-a-med Zahncreme",
+      "cents": 228,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#15",
+      "automatic": true,
+      "pack": "75 ml",
+      "quantity": 2,
+      "condition": "Ab 2 Stück",
+      "unit": "15,20 €/l"
+    },
+    {
+      "retailer": "spar",
+      "name": "Cheesecake",
+      "cents": 338,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#14",
+      "automatic": true,
+      "quantity": 2,
+      "condition": "Ab 2 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "Coca-Cola Limonaden",
+      "cents": 576,
+      "from": "2026-11-19",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#12",
+      "automatic": true,
+      "pack": "2 Liter",
+      "quantity": 4,
+      "condition": "Ab 4 Stück",
+      "unit": "0,72 €/l"
+    },
+    {
+      "retailer": "spar",
+      "name": "Dr. Oetker Bistro Baguette tiefgekühlt, versch. Sorten",
+      "cents": 598,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#11",
+      "automatic": true,
+      "quantity": 3,
+      "condition": "Ab 3 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "Fa Duschgel",
+      "cents": 396,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#19",
+      "automatic": true,
+      "pack": "250 ml",
+      "quantity": 3,
+      "condition": "Ab 3 Stück",
+      "unit": "5,28 €/l"
+    },
+    {
+      "retailer": "spar",
+      "name": "Fairy Geschirrspültabs",
+      "cents": 1896,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#15",
+      "automatic": true,
+      "quantity": 3,
+      "condition": "Ab 3 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "Gösser Märzen",
+      "cents": 1788,
+      "from": "2026-11-19",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#4",
+      "automatic": true,
+      "pack": "0,5 Liter",
+      "quantity": 24,
+      "condition": "Ab 24 Stück",
+      "unit": "1,48 €/l"
+    },
+    {
+      "retailer": "spar",
+      "name": "Heinz Ketchup",
+      "cents": 299,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#14",
+      "automatic": true,
+      "pack": "1000 g"
+    },
+    {
+      "retailer": "spar",
+      "name": "Hirter Privat Pils",
+      "cents": 594,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#13",
+      "automatic": true,
+      "pack": "0,5 Liter",
+      "quantity": 6,
+      "condition": "Ab 6 Stück",
+      "unit": "1,98 €/l"
+    },
+    {
+      "retailer": "spar",
+      "name": "Iglo Fischstäbchen",
+      "cents": 1296,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#5",
+      "automatic": true,
+      "pack": "300–450 g",
+      "quantity": 3,
+      "condition": "Ab 3 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "Iglo Gemüse",
+      "cents": 624,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#3",
+      "automatic": true,
+      "pack": "400–450 g",
+      "quantity": 3,
+      "condition": "Ab 3 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "Jacobs",
+      "cents": 598,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#14",
+      "automatic": true,
+      "quantity": 2,
+      "condition": "Ab 2 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "Joghurttraum",
+      "cents": 158,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#14",
+      "automatic": true,
+      "quantity": 2,
+      "condition": "Ab 2 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "Kelly's Chips",
+      "cents": 299,
+      "from": "2026-11-19",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#4",
+      "automatic": true,
+      "pack": "130–150 g",
+      "quantity": 2,
+      "condition": "Ab 2 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "Kupferberg Sekt",
+      "cents": 698,
+      "from": "2026-11-19",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#17",
+      "automatic": true,
+      "pack": "0,75 Liter",
+      "quantity": 2,
+      "condition": "Ab 2 Stück",
+      "unit": "4,65 €/l"
+    },
+    {
+      "retailer": "spar",
+      "name": "La Gioiosa Spumante Rosea",
+      "cents": 998,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#12",
+      "automatic": true,
+      "pack": "0,75 Liter",
+      "quantity": 2,
+      "condition": "Ab 2 Stück",
+      "unit": "6,65 €/l"
+    },
+    {
+      "retailer": "spar",
+      "name": "Lindt Choco Wafer",
+      "cents": 698,
+      "from": "2026-11-19",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#2",
+      "automatic": true,
+      "pack": "130–138 g",
+      "quantity": 2,
+      "condition": "Ab 2 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "Mascarpone",
+      "cents": 598,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#14",
+      "automatic": true,
+      "quantity": 2,
+      "condition": "Ab 2 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "Mautner Sirup",
+      "cents": 798,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#17",
+      "automatic": true,
+      "pack": "0,7 Liter",
+      "quantity": 3,
+      "condition": "Ab 3 Stück",
+      "unit": "3,80 €/l"
+    },
+    {
+      "retailer": "spar",
+      "name": "Milka Pralinen",
+      "cents": 976,
+      "from": "2026-11-19",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#2",
+      "automatic": true,
+      "pack": "110–130 g",
+      "quantity": 4,
+      "condition": "Ab 4 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "Muriel Rioja Crianza",
+      "cents": 998,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#12",
+      "automatic": true,
+      "pack": "0,75 Liter",
+      "quantity": 2,
+      "condition": "Ab 2 Stück",
+      "unit": "6,65 €/l"
+    },
+    {
+      "retailer": "spar",
+      "name": "Nescafé Classic Löskaffee versch. Sorten",
+      "cents": 1448,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#11",
+      "automatic": true,
+      "quantity": 2,
+      "condition": "Ab 2 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "Pampers Windeln",
+      "cents": 1998,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#15",
+      "automatic": true,
+      "quantity": 3,
+      "condition": "Ab 3 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "Recheis Familie 2-Ei Teigwaren",
+      "cents": 532,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#14",
+      "automatic": true,
+      "pack": "1 kg",
+      "quantity": 2,
+      "condition": "Ab 2 Stück",
+      "unit": "2,66 €/kg"
+    },
+    {
+      "retailer": "spar",
+      "name": "S-BUDGET Energy Drink",
+      "cents": 696,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#6",
+      "automatic": true,
+      "pack": "0,25 Liter",
+      "quantity": 24,
+      "condition": "Ab 24 Stück",
+      "unit": "1,16 €/l"
+    },
+    {
+      "retailer": "spar",
+      "name": "S-BUDGET Energy Drink Classic",
+      "pack": "250 ml",
+      "cents": 696,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#6",
+      "image": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005353688/HB_500px.jpg",
+      "sku": "2020005353688",
+      "quantity": 24,
+      "singlePackCents": 59,
+      "condition": "Ab 24 Dosen · zzgl. Pfand",
+      "unit": "1,16 €/l"
+    },
+    {
+      "retailer": "spar",
+      "name": "S-BUDGET Obstparadies Erdbeere 2x125 g",
+      "pack": "250 g",
+      "cents": 98,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#6",
+      "image": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006197823/HB_500px.jpg",
+      "sku": "2020006197823",
+      "unit": "3,92 €/kg"
+    },
+    {
+      "retailer": "spar",
+      "name": "SPAR Bio-Lachsfilet",
+      "pack": "200 g",
+      "cents": 1398,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#5",
+      "quantity": 2,
+      "singlePackCents": 799,
+      "condition": "Ab 2 Packungen",
+      "unit": "34,95 €/kg"
+    },
+    {
+      "retailer": "spar",
+      "name": "SPAR Käsestangerl",
+      "cents": 148,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#5",
+      "automatic": true,
+      "quantity": 2,
+      "condition": "Ab 2 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "SPAR Linzerstangerl 4 Stück",
+      "pack": "200 g",
+      "cents": 199,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#7",
+      "image": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/1891737/HB_500px.jpg",
+      "sku": "1891737",
+      "unit": "9,95 €/kg"
+    },
+    {
+      "retailer": "spar",
+      "name": "SPAR Müllsäcke",
+      "cents": 597,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#18",
+      "automatic": true,
+      "pack": "70 Liter",
+      "quantity": 3,
+      "condition": "Ab 3 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "SPAR Roggenweckerl",
+      "cents": 206,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#5",
+      "automatic": true,
+      "quantity": 3,
+      "condition": "Ab 3 Stück"
+    },
+    {
+      "retailer": "spar",
+      "name": "SPAR Schokokuchen",
+      "pack": "125 g",
+      "cents": 189,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#7",
+      "unit": "15,12 €/kg"
+    },
+    {
+      "retailer": "spar",
+      "name": "SPAR Zimtschnecke",
+      "pack": "1 Stück",
+      "cents": 149,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#7",
+      "image": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004161925/HB_500px.jpg",
+      "sku": "2020004161925"
+    },
+    {
+      "retailer": "spar",
+      "name": "Scharlachberg Meisterspirituose",
+      "cents": 999,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#10",
+      "automatic": true,
+      "pack": "1 Liter",
+      "unit": "9,99 €/l"
+    },
+    {
+      "retailer": "spar",
+      "name": "Spar Antipasti",
+      "cents": 597,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#11",
+      "automatic": true,
+      "pack": "140 g",
+      "quantity": 3,
+      "condition": "Ab 3 Stück",
+      "unit": "14,21 €/kg"
+    },
+    {
+      "retailer": "spar",
+      "name": "Syoss Shampoo oder Spülung",
+      "cents": 798,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261119-1-flugblatt-kw-47/#19",
+      "automatic": true,
+      "pack": "440 ml",
+      "quantity": 3,
+      "condition": "Ab 3 Stück",
+      "unit": "6,05 €/l"
+    },
+    {
+      "retailer": "spar",
+      "name": "true fruits Smoothie",
+      "cents": 578,
+      "from": "2026-11-26",
+      "until": "2026-12-02",
+      "source": "https://flugblatt.spar.at/steiermark/spar/261126-1-flugblatt-kw-48/#13",
+      "automatic": true,
+      "pack": "750 ml",
+      "quantity": 2,
+      "condition": "Ab 2 Stück",
+      "unit": "3,85 €/l"
+    }
+  ]
+}

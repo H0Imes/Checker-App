@@ -1,0 +1,42 @@
+name: Refresh Styrian offers
+
+on:
+  schedule:
+    - cron: '17 5 * * *'
+    - cron: '37 10 * * 4'
+  workflow_dispatch:
+
+concurrency:
+  group: styrian-offer-feed
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Check current regional flyers
+        run: |
+          python3 -m venv "$RUNNER_TEMP/offer-tools"
+          "$RUNNER_TEMP/offer-tools/bin/python" -m pip install --disable-pip-version-check pymupdf==1.26.7 tzdata==2026.2
+          "$RUNNER_TEMP/offer-tools/bin/python" tool/refresh-styria-offers.py release/styria-offers.json
+      - name: Publish the refreshed feed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- release/styria-offers.json; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- release/styria-offers.json
+          git commit -m "Refresh Styrian offers"
+          gh auth setup-git
+          git push origin "HEAD:refs/heads/$GITHUB_REF_NAME"
