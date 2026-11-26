@@ -1,0 +1,22 @@
+{
+    "versionName":  "1.0.1",
+    "buildNumber":  2,
+    "signerSha256":  "a2aa10ceebb8fe3698a9e5419e0872292bdc6569050c8d8509c44ea3c7dd667a",
+    "android":  {
+                    "arm64-v8a":  {
+                                      "versionCode":  2002,
+                                      "size":  29251885,
+                                      "sha256":  "5e8545a12fe6d8714c5a6cd5955a94b3b3a3df838cd187fa7984b722f9cf08b9"
+                                  },
+                    "armeabi-v7a":  {
+                                        "versionCode":  1002,
+                                        "size":  25400221,
+                                        "sha256":  "b167badc5527b6b86958d34c8afc94805be8ec013e5109f6096cdfe4beee4251"
+                                    },
+                    "x86_64":  {
+                                   "versionCode":  4002,
+                                   "size":  31545643,
+                                   "sha256":  "e1cbffc71cef32e5b764d794a92a62188435a808768d8622731e4ec86da2c8ed"
+                               }
+                }
+}
