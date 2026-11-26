@@ -1,22 +1,22 @@
 {
-    "versionName":  "1.0.1",
-    "buildNumber":  2,
+    "versionName":  "1.0.4",
+    "buildNumber":  5,
     "signerSha256":  "a2aa10ceebb8fe3698a9e5419e0872292bdc6569050c8d8509c44ea3c7dd667a",
     "android":  {
                     "arm64-v8a":  {
-                                      "versionCode":  2002,
-                                      "size":  29251885,
-                                      "sha256":  "5e8545a12fe6d8714c5a6cd5955a94b3b3a3df838cd187fa7984b722f9cf08b9"
+                                      "versionCode":  2005,
+                                      "size":  29251793,
+                                      "sha256":  "76c7873d29341a090d0e303e383f7c8ea0e74f0ffb3723fabba6bb1fdff67883"
                                   },
                     "armeabi-v7a":  {
-                                        "versionCode":  1002,
-                                        "size":  25400221,
-                                        "sha256":  "b167badc5527b6b86958d34c8afc94805be8ec013e5109f6096cdfe4beee4251"
+                                        "versionCode":  1005,
+                                        "size":  25416513,
+                                        "sha256":  "f0cc47b695fd818933dfb86d4580af50fd6a01d1cd8d16d03d85c8bc04024c7d"
                                     },
                     "x86_64":  {
-                                   "versionCode":  4002,
-                                   "size":  31545643,
-                                   "sha256":  "e1cbffc71cef32e5b764d794a92a62188435a808768d8622731e4ec86da2c8ed"
+                                   "versionCode":  4005,
+                                   "size":  31545551,
+                                   "sha256":  "b27e0de82929ac4be4dcc92b9afb6364711a5a48daad12d21cfeec95a6b24617"
                                }
                 }
 }
