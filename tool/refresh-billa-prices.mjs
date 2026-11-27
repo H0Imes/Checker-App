@@ -39,6 +39,7 @@ for (let page = 0; page < Math.ceil(first.total / pageSize); page++) {
       name: row.name,
       amount: row.amount,
       volumeLabelShort: row.volumeLabelShort,
+      packageLabel: row.packageLabel || undefined,
       ...(row.weightArticle === true && {weightArticle: true}),
       ...(row.inPromotion === true && {inPromotion: true}),
       price: {
