@@ -1,0 +1,36 @@
+name: Refresh BILLA prices
+
+on:
+  schedule:
+    - cron: '19 0,6,12,18 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: billa-price-feed
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Fetch BILLA webshop prices
+        run: node tool/refresh-billa-prices.mjs release/billa-prices.json
+      - name: Publish the price feed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- release/billa-prices.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh BILLA webshop prices"
+          gh auth setup-git
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:refs/heads/$GITHUB_REF_NAME"
