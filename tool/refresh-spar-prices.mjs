@@ -33,23 +33,26 @@ function quote(hit, market) {
   const available = geo.available === true;
   const multi = /^Mengenvorteil ab (\d+) Stk\.? je$/i.exec(geo.promotionBadgeText ?? '');
   const minimum = Number(multi?.[1]);
-  const weightBasis = /\bca\.?\s*\d+\s*(?:g|kg)\b/i.test(values.name2 ?? '') &&
+  const variableWeight = /\b(?:per|pro|je)\s+kg\b|\bca\.?\s*\d+(?:[.,]\d+)?\s*(?:g|kg)\b|\bper\s+Pkg\b/i.test(values.name2 ?? '');
+  const perKilo = variableWeight &&
     /^1\s*kg$/i.test(values.name3 ?? '') &&
-    geo.comparisonPrice_unit === 'kg' && geo.comparisonPrice_quantity === 1
-    ? 'kg'
-    : undefined;
+    geo.comparisonPrice_unit === 'kg' && geo.comparisonPrice_quantity === 1 &&
+    current === base
+    ? cents(geo.comparisonPrice_price)
+    : null;
   const price = {
-    cents: base,
+    cents: perKilo ?? base,
     ...(values.name3 && {pack: values.name3}),
     ...(!available && {unavailable: true}),
-    ...(weightBasis && {weightBasis}),
+    ...(perKilo && {weightBasis: 'kg'}),
   };
   if (available && !geo.hasAppVoucher && geo.mengenRabatt && minimum > 1 &&
-      current != null && current < base && !weightBasis) {
+      current != null && current < base && !variableWeight) {
     return {...price, saleCents: current, originalCents: base, minimum};
   }
   if (available && !geo.hasAppVoucher && !geo.mengenRabatt &&
-      geo.hasAktionsPrice && current === base && previous != null && previous > base) {
+      geo.hasAktionsPrice && current === base && previous != null && previous > base &&
+      (perKilo == null || perKilo === base)) {
     return {...price, saleCents: current, originalCents: previous, minimum: 1};
   }
   return price;
@@ -83,7 +86,13 @@ async function fetchBatch(retailer, ids) {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       data = await response.json();
       if (data.timedOut || !Array.isArray(data.hits) || data.totalHits !== data.hits.length) {
-        throw new Error('Incomplete Produktwelt results');
+        if (data.timedOut || ids.length === 1) {
+          throw new Error('Incomplete Produktwelt results');
+        }
+        const half = Math.ceil(ids.length / 2);
+        await fetchBatch(retailer, ids.slice(0, half));
+        await fetchBatch(retailer, ids.slice(half));
+        return;
       }
       break;
     } catch (error) {
