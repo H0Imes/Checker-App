@@ -42,13 +42,27 @@ for (let page = 0; page < Math.ceil(first.total / pageSize); page++) {
       ...(row.weightArticle === true && {weightArticle: true}),
       ...(row.inPromotion === true && {inPromotion: true}),
       price: {
+        ...(row.weightArticle === true && {
+          baseUnitShort: row.price.baseUnitShort,
+          basePriceFactor: row.price.basePriceFactor,
+        }),
         regular: {
           value: regular.value,
+          ...(row.weightArticle === true && {
+            perStandardizedQuantity: regular.perStandardizedQuantity,
+          }),
           promotionQuantity: regular.promotionQuantity,
           promotionText: regular.promotionText,
           promotionType: regular.promotionType,
         },
-        ...(Number.isInteger(standard?.value) && {standard: {value: standard.value}}),
+        ...(Number.isInteger(standard?.value) && {
+          standard: {
+            value: standard.value,
+            ...(row.weightArticle === true && {
+              perStandardizedQuantity: standard.perStandardizedQuantity,
+            }),
+          },
+        }),
       },
     });
   }
