@@ -12,6 +12,9 @@ const dateFormat = new Intl.DateTimeFormat('sv-SE', {timeZone: 'Europe/Vienna'})
 const day = dateFormat.format(new Date(checkedAt));
 const chunkSize = 32;
 const products = {spar: {}, interspar: {}};
+const catalogKilo = new Set(catalog.byKilo ?? []);
+const produceKilo = new Set(catalog.produceByKilo ?? []);
+const perKiloLabel = /\b(?:per|pro|je)\s+kg\b/i;
 let requestGap = 750;
 
 function cents(value) {
@@ -33,12 +36,13 @@ function quote(hit, market) {
   const available = geo.available === true;
   const multi = /^Mengenvorteil ab (\d+) Stk\.? je$/i.exec(geo.promotionBadgeText ?? '');
   const minimum = Number(multi?.[1]);
-  const variableWeight = /\b(?:per|pro|je)\s+kg\b|\bca\.?\s*\d+(?:[.,]\d+)?\s*(?:g|kg)\b|\bper\s+Pkg\b/i.test(values.name2 ?? '');
-  const perKilo = variableWeight &&
-    /^1\s*kg$/i.test(values.name3 ?? '') &&
-    geo.comparisonPrice_unit === 'kg' && geo.comparisonPrice_quantity === 1 &&
-    current === base
-    ? cents(geo.comparisonPrice_price)
+  const explicitKilo = perKiloLabel.test(values.name2 ?? '');
+  const variableWeight = explicitKilo || catalogKilo.has(values.productId) ||
+    /\bca\.?\s*\d+(?:[.,]\d+)?\s*(?:g|kg)\b|\bper\s+Pkg\b/i.test(values.name2 ?? '');
+  const comparisonPerKilo = geo.comparisonPrice_unit?.toLowerCase() === 'kg' &&
+    geo.comparisonPrice_quantity === 1 ? cents(geo.comparisonPrice_price) : null;
+  const perKilo = variableWeight && current === base
+    ? comparisonPerKilo ?? (explicitKilo && produceKilo.has(values.productId) ? base : null)
     : null;
   const price = {
     cents: perKilo ?? base,
